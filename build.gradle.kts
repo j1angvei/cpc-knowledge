@@ -11,6 +11,7 @@ repositories {
 
 dependencies {
     implementation("org.jsoup:jsoup:1.18.3")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
 }
 
 tasks.test {
